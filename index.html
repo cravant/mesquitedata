@@ -1,63 +1,147 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mesquite Data | Home</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mesquite Data — Automated Discord Marketing</title>
   <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Mesquite Data: Discord bot based automated marketing, community targeting, and lead generation." />
 </head>
 <body>
-  <header class="nav-header">
-    <nav class="nav">
-      <div class="logo">Mesquite Data</div>
-      <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Mesquite Data</a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="solutions.html" class="nav-link">Solutions</a>
+      </nav>
+
+      <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu">
+        ☰
+      </button>
+    </div>
+
+    <!-- small mobile nav -->
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="solutions.html">Solutions</a>
+    </div>
   </header>
 
-  <section class="hero">
-    <div class="hero-inner">
-      <h1>Automated Marketing, Real Results</h1>
-      <p>Leverage Discord bots to generate high-quality leads and engage communities at scale.</p>
-      <a href="contact.html" class="cta">Get Started</a>
-    </div>
-  </section>
+  <!-- HERO -->
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Automated marketing that actually converts.</h1>
+          <p class="lead">We deploy intelligent Discord bots that target the right communities, start conversations, and deliver qualified leads — 24/7.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="solutions.html">See Solutions</a>
+            <a class="btn btn-outline" href="index.html#about">Our Approach</a>
+          </div>
+        </div>
 
-  <section class="solutions">
-    <div class="solution-card">
-      <h3>Automated Outreach</h3>
-      <p>Our bots run 24/7, connecting you to the right people without manual effort.</p>
-    </div>
-    <div class="solution-card">
-      <h3>Community Targeting</h3>
-      <p>We identify and engage Discord servers aligned to your niche.</p>
-    </div>
-    <div class="solution-card">
-      <h3>Analytics & Optimization</h3>
-      <p>Track performance, optimize your funnel, and scale smarter.</p>
-    </div>
-  </section>
-
-  <section class="testimonials">
-    <h2>Success Stories</h2>
-    <div class="testimonials-inner">
-      <div class="testimonial">
-        <p><em>“Mesquite Data doubled our monthly leads using smart bot campaigns.”</em></p>
-        <span>- Client A</span>
+        <div class="hero-media" aria-hidden="true">
+          <!-- Lightweight SVG/placeholder or swap with an image -->
+          <div class="media-card">
+            <svg width="320" height="220" viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0" y="0" width="320" height="220" rx="12" fill="#E6F6FF"/>
+              <g transform="translate(24,24)" fill="#0077FF" opacity="0.95">
+                <rect x="0" y="0" width="200" height="14" rx="6"></rect>
+                <rect x="0" y="30" width="160" height="14" rx="6"></rect>
+                <rect x="0" y="60" width="120" height="14" rx="6"></rect>
+                <circle cx="260" cy="110" r="40" fill="#A1E3D8"></circle>
+              </g>
+            </svg>
+          </div>
+        </div>
       </div>
-      <div class="testimonial">
-        <p><em>“The team automated our Discord outreach and now we don’t worry about it.”</em></p>
-        <span>- Client B</span>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <footer>
-    <div class="footer-inner">
-      <p>© 2025 Mesquite Data. All rights reserved.</p>
+    <!-- FEATURES / SOLUTIONS TEASER -->
+    <section class="solutions-teaser">
+      <div class="container">
+        <h2>What we do</h2>
+        <p class="section-sub">Built for growth — outreach, targeting, optimization.</p>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Automated Outreach</h3>
+            <p>Deploy bots that converse intelligently, qualify prospects, and funnel leads into your stack.</p>
+          </article>
+
+          <article class="card">
+            <h3>Community Targeting</h3>
+            <p>We find and engage the exact Discord servers where your audience already hangs out.</p>
+          </article>
+
+          <article class="card">
+            <h3>Data & Optimization</h3>
+            <p>Every interaction tracked — we optimize messaging, timing, and channels to maximize ROI.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT (inline on index) -->
+    <section id="about" class="about">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <h2>About Mesquite Data</h2>
+          <p>We are a specialized marketing team that combines automation engineering, behavioral analytics, and ethical outreach to help businesses scale via Discord. Our approach focuses on respecting communities, delivering value first, and converting engaged users into paying customers.</p>
+
+          <ul class="about-list">
+            <li><strong>Ethical automation:</strong> respectful community-first outreach.</li>
+            <li><strong>Scalable systems:</strong> pipelines you can trust to run reliably.</li>
+            <li><strong>Transparent reporting:</strong> clear KPIs and ROI-driven decisions.</li>
+          </ul>
+
+          <p><a class="btn btn-primary" href="solutions.html">Explore Solutions & Contact</a></p>
+        </div>
+
+        <div class="about-media" aria-hidden="true">
+          <!-- Placeholder for founder/team photo or stylized graphic -->
+          <div class="profile-card">
+            <div class="avatar">MD</div>
+            <div class="profile-copy">
+              <h3>Mesquite Data</h3>
+              <p>Founder-led team with deep experience in growth, automation, and community marketing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <div class="container">
+        <h2>Results our clients see</h2>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial">
+            <p>“Mesquite Data increased our qualified lead flow by 3x in two months.”</p>
+            <footer>— Growth Manager, SaaS Co.</footer>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <p>“They automated our outreach and freed the team to focus on closing.”</p>
+            <footer>— Marketing Lead, E-Commerce</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>© <span id="year"></span> Mesquite Data</div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html#about">About</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="mailto:contact@mesquitedata.com">contact@mesquitedata.com</a>
+      </nav>
     </div>
   </footer>
 
