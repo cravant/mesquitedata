@@ -1,0 +1,102 @@
+:root {
+  --bg: #f5f4f1;
+  --dark: #2a2a29;
+  --accent: #8b5cf6;
+  --accent-light: #c7b3ff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--dark);
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--accent);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.nav-links .active {
+  color: var(--accent);
+}
+
+/* HERO */
+.hero {
+  padding: 120px 40px;
+  text-align: center;
+  background: var(--accent-light);
+}
+
+.cta {
+  background: var(--accent);
+  color: white;
+  text-decoration: none;
+  padding: 12px 28px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px 20px;
+}
+
+.feature-card {
+  background: white;
+  width: 280px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* ABOUT & CONTACT */
+.about, .contact {
+  max-width: 800px;
+  margin: auto;
+  padding: 80px 40px;
+}
+
+.embed-box {
+  margin-top: 30px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #eaeaea;
+  margin-top: 40px;
+}
