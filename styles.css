@@ -202,8 +202,8 @@ body{
   margin-bottom:18px;
 }
 
-/* Contact / embed box */
-.contact-cta{padding:48px 0; background:var(--muted)}
+/* Contact / embed boxwas 48 padding */
+.contact-cta{padding:18px 0; background:var(--muted)}
 .contact-grid{display:grid; grid-template-columns:1fr 420px; gap:28px; align-items:center}
 .contact-form-wrap .embed-box{
   min-height:140px;
