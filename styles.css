@@ -203,7 +203,7 @@ body{
 }
 
 /* Contact / embed boxwas 48 after was 0*/
-.contact-cta{padding:18px 7; background:var(--muted)}
+.contact-cta{padding:48px 0; background:var(--muted)}
 .contact-grid{display:grid; grid-template-columns:1fr 420px; gap:28px; align-items:center}
 .contact-form-wrap .embed-box{
   min-height:140px;
