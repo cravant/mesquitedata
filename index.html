@@ -1,143 +1,697 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Mesquite Data — Automated Discord Marketing</title>
+  <meta charset="UTF-8" />
+  <title>Mesquite Data – Websites That Get Customers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Mesquite Data builds and manages high-converting, professional websites for local and service-based businesses."
+  />
   <link rel="stylesheet" href="styles.css" />
-  <meta name="description" content="Mesquite Data: Discord bot based automated marketing, community targeting, and lead generation." />
 </head>
 <body>
   <header class="site-header">
-    <div class="container header-inner">
-    <a class="logo" href="index.html">Mesquite Data</a>
-
-
-      <nav class="main-nav" aria-label="Main navigation">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="index.html#about" class="nav-link">About</a>
-        <a href="solutions.html" class="nav-link">Solutions</a>
+    <div class="header-inner container">
+      <div class="logo-mark">
+        <div class="logo-icon"></div>
+        <div class="logo-text">
+          <span>Mesquite Data</span>
+          <span>Websites that convert</span>
+        </div>
+      </div>
+      <nav class="main-nav" aria-label="Primary">
+        <div class="nav-links">
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#why">Why us</a>
+          <a href="#use-cases">Use cases</a>
+          <a href="#pricing">Pricing</a>
+        </div>
+        <div class="nav-cta">
+          <button class="btn btn-outline" type="button" data-scroll-target="pricing">
+            View services
+          </button>
+          <button class="btn btn-primary" type="button" data-scroll-target="cta">
+            Get started
+          </button>
+        </div>
       </nav>
-
-      <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu">
-        ☰
-      </button>
     </div>
+  </header>
 
-  <!-- HERO -->
   <main>
-    <section class="hero">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
       <div class="container hero-grid">
-        <div class="hero-copy">
-          <h1>Automated marketing that actually converts.</h1>
-          <p class="lead">We operate scalable Discord growth systems that run targeted ads in the right communities and generate qualified leads — 24/7</p>
-          <div class="hero-ctas">
-            <a class="btn btn-primary" href="solutions.html">See Solutions</a>
-            <a class="btn btn-outline" href="index.html#about">Our Approach</a>
+        <div>
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>San Antonio • Local & service businesses</span>
+          </div>
+          <h1 id="hero-title">
+            Websites built to turn visitors into <span class="highlight">customers</span>
+          </h1>
+          <p class="hero-sub">
+            Mesquite Data designs, hosts, and manages high‑converting business websites so you get more calls, quotes, and bookings without wrestling with tech.
+          </p>
+          <div class="hero-cta-row">
+            <button class="btn btn-primary" type="button" data-scroll-target="services">
+              View services
+            </button>
+            <button class="btn btn-outline" type="button" data-scroll-target="cta">
+              Get started
+            </button>
+            <span class="btn-pill-soft">Fast, reliable, conversion‑focused</span>
+          </div>
+          <div class="hero-meta">
+            <span><strong>Under 3 weeks</strong> from kickoff to launch</span>
+            <span><strong>Done‑for‑you</strong> copy, design, and setup</span>
           </div>
         </div>
 
-        <div class="hero-media" aria-hidden="true">
-          <!-- Lightweight SVG/placeholder or swap with an image -->
-          <div class="media-card">
-            <svg width="320" height="220" viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0" y="0" width="320" height="220" rx="12" fill="#E6F6FF"/>
-              <g transform="translate(24,24)" fill="#0077FF" opacity="0.95">
-                <rect x="0" y="0" width="200" height="14" rx="6"></rect>
-                <rect x="0" y="30" width="160" height="14" rx="6"></rect>
-                <rect x="0" y="60" width="120" height="14" rx="6"></rect>
-                <circle cx="260" cy="110" r="40" fill="#A1E3D8"></circle>
-              </g>
-            </svg>
+        <aside class="hero-card" aria-label="Website performance preview">
+          <div class="hero-card-header">
+            <div class="hero-badge">
+              Conversion snapshot
+              <span class="hero-badge-pill">Live sites we manage</span>
+            </div>
+            <div class="hero-metrics">
+              <div>
+                <strong>+47%</strong>
+                More form leads
+              </div>
+              <div>
+                <strong>2.1x</strong>
+                More calls from mobile
+              </div>
+            </div>
           </div>
-        </div>
+          <div class="hero-site-mock">
+            <div class="site-bar">
+              <div class="site-dots">
+                <span class="site-dot"></span>
+                <span class="site-dot"></span>
+                <span class="site-dot"></span>
+              </div>
+              <span>yourbusiness.com</span>
+            </div>
+            <div class="site-main">
+              <div class="site-hero-block">
+                <div>
+                  <div class="site-hero-title">Plumbing & home services</div>
+                  <div class="site-hero-text">
+                    Turn emergency searches into booked jobs with a clear, fast site.
+                  </div>
+                </div>
+                <button class="site-hero-cta" type="button">
+                  Book service
+                  <span>→</span>
+                </button>
+              </div>
+              <div class="site-sidebar">
+                <div class="site-sidebar-row">
+                  <span>Mobile speed</span>
+                  <span class="site-pill">95/100</span>
+                </div>
+                <div class="site-sidebar-row">
+                  <span>Call‑click rate</span>
+                  <span class="site-pill">3.2x boost</span>
+                </div>
+                <div class="site-sidebar-row">
+                  <span>Request‑a‑quote</span>
+                  <span class="site-pill">+39% submissions</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-footnote">
+            <span>Built on modern, lightweight tech so pages load quickly even on spotty mobile data.</span>
+            <span>Every page is designed around one job: turning visitors into calls, form fills, or bookings.</span>
+          </div>
+        </aside>
       </div>
     </section>
 
-    <!-- FEATURES / SOLUTIONS TEASER -->
-    <section class="solutions-teaser">
+    <!-- Services -->
+    <section id="services" aria-labelledby="services-title">
       <div class="container">
-        <h2>What we do</h2>
-        <p class="section-sub">Targeted Discord advertising, done at scale.</p>
-
-        <div class="card-grid">
-          <article class="card">
-            <h3>Automated Outreach</h3>
-            <p>Deploy bots that push your business out to the audience you want to reach, no manual work required.</p>
+        <div class="section-header">
+          <div class="section-title-group">
+            <h2 id="services-title">Services built around local businesses</h2>
+            <p>
+              Clear, focused services that handle everything from the first pixel to ongoing updates, so your website works quietly in the background while you run the business.
+            </p>
+          </div>
+          <div class="section-tag">Core services</div>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-label">01 • Websites</div>
+            <h3 class="service-title">Website design &amp; development</h3>
+            <p class="service-desc">
+              Custom business websites designed to look trustworthy, load fast, and guide visitors toward the next step: call, request, or booking.
+            </p>
+            <p class="service-meta">
+              <strong>Who it’s for:</strong> Local and service‑based businesses that need a website to actively generate work, not just exist online.
+            </p>
+            <p class="service-meta">
+              <strong>Why it matters:</strong> A clear, modern site shows up in search, works on every screen, and turns “just browsing” into new customers.
+            </p>
+            <div class="service-pill-row">
+              <span class="service-pill">Custom layouts</span>
+              <span class="service-pill">Mobile‑first</span>
+              <span class="service-pill">SEO‑friendly structure</span>
+            </div>
           </article>
 
-          <article class="card">
-            <h3>Community Targeting</h3>
-            <p>We advertise within the Discord communities most relevant to your product.</p>
+          <article class="service-card">
+            <div class="service-label">02 • Hosting</div>
+            <h3 class="service-title">Website hosting</h3>
+            <p class="service-desc">
+              Fast, secure, fully managed hosting so your website stays online, backed up, and protected without you touching a control panel.
+            </p>
+            <p class="service-meta">
+              <strong>Who it’s for:</strong> Owners who want their site handled by someone who cares about uptime and performance as much as they do.
+            </p>
+            <p class="service-meta">
+              <strong>Why it matters:</strong> A site that drops offline or loads slowly leaks trust, rankings, and leads.
+            </p>
+            <div class="service-pill-row">
+              <span class="service-pill">Managed security</span>
+              <span class="service-pill">Automatic updates</span>
+              <span class="service-pill">Uptime monitoring</span>
+            </div>
           </article>
 
-          <article class="card">
-            <h3>Data & Optimization</h3>
-            <p>Campaign performance is tracked and refiend to maximize lead quantity and ROI.</p>
+          <article class="service-card">
+            <div class="service-label">03 • Email</div>
+            <h3 class="service-title">Email hosting</h3>
+            <p class="service-desc">
+              Professional business email addresses like <strong>name@yourbusiness.com</strong> that match your brand and stay protected from spam.
+            </p>
+            <p class="service-meta">
+              <strong>Who it’s for:</strong> Teams ready to move on from free inboxes and look more established in every message.
+            </p>
+            <p class="service-meta">
+              <strong>Why it matters:</strong> Branded email increases trust, reinforces your name, and keeps customer communication stable and searchable.
+            </p>
+            <div class="service-pill-row">
+              <span class="service-pill">Branded mailboxes</span>
+              <span class="service-pill">Spam &amp; threat filters</span>
+              <span class="service-pill">Shared team addresses</span>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-label">04 • Management</div>
+            <h3 class="service-title">Website management &amp; maintenance</h3>
+            <p class="service-desc">
+              Ongoing updates, content edits, and monitoring so your site stays accurate, secure, and ready for the next visitor.
+            </p>
+            <p class="service-meta">
+              <strong>Who it’s for:</strong> Businesses that prefer sending a quick email when something needs changing instead of logging into a dashboard.
+            </p>
+            <p class="service-meta">
+              <strong>Why it matters:</strong> Out‑of‑date sites create confusion and lost trust; maintained sites keep leads flowing smoothly.
+            </p>
+            <div class="service-pill-row">
+              <span class="service-pill">Content edits</span>
+              <span class="service-pill">Security monitoring</span>
+              <span class="service-pill">Performance tuning</span>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ABOUT (inline on index) -->
-    <section id="about" class="about">
-      <div class="container about-grid">
-        <div class="about-copy">
-          <h2>About Mesquite Data</h2>
-          <p>We are a specialized marketing team focused on scalable Discord advertising. We design and operate automated systems that place targeted ads inside relevant communities, helping businesses generate qualified leads efficiently and reliably.</p>
-
-          <ul class="about-list">
-            <li><strong>Compliant automation:</strong> advertising systems designed to respect platform and community rules.</li>
-            <li><strong>Scalable systems:</strong> reliable infrastructure built to run continuously.</li>
-            <li><strong>Transparent reporting:</strong> clear performance metrics and ROI-focused insights.</li>
-          </ul>
-
-          <p><a class="btn btn-primary" href="solutions.html">Explore Solutions & Contact</a></p>
-        </div>
-
-        <div class="about-media" aria-hidden="true">
-          <!-- Placeholder for founder/team photo or stylized graphic -->
-          <div class="profile-card">
-            <div class="avatar">MD</div>
-            <div class="profile-copy">
-              <h3>Mesquite Data</h3>
-              <p>A dedicated team focused on building the best possible Discord advertising bots.</p>
+    <!-- Process -->
+    <section id="process" aria-labelledby="process-title">
+      <div class="container process-grid">
+        <div>
+          <div class="section-header">
+            <div class="section-title-group">
+              <h2 id="process-title">A simple, guided process</h2>
+              <p>
+                From first call to launch, Mesquite Data walks you through a clear sequence that respects your time and keeps the project moving forward.
+              </p>
+            </div>
+            <div class="section-tag">How it works</div>
+          </div>
+          <div class="process-steps">
+            <div class="step">
+              <div class="step-index">1</div>
+              <div class="step-body">
+                <h3>Discovery call</h3>
+                <p>
+                  A short call to understand your services, service areas, and what a “good lead” looks like for you.
+                </p>
+                <ul>
+                  <li>Clarify your ideal jobs</li>
+                  <li>Review existing site (if any)</li>
+                  <li>Map key actions: call, quote, booking</li>
+                </ul>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-index">2</div>
+              <div class="step-body">
+                <h3>Content &amp; layout plan</h3>
+                <p>
+                  Mesquite Data drafts structure, messaging, and calls‑to‑action tailored to your services and local search terms.
+                </p>
+                <ul>
+                  <li>Homepage &amp; service pages outline</li>
+                  <li>SEO‑friendly headings</li>
+                  <li>Lead forms and call‑to‑action placement</li>
+                </ul>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-index">3</div>
+              <div class="step-body">
+                <h3>Design, build, and review</h3>
+                <p>
+                  A modern, responsive design is built on a fast foundation; you review and request edits before launch.
+                </p>
+                <ul>
+                  <li>Custom desktop &amp; mobile layouts</li>
+                  <li>Speed &amp; security setup</li>
+                  <li>Clear review &amp; feedback round</li>
+                </ul>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-index">4</div>
+              <div class="step-body">
+                <h3>Launch &amp; ongoing care</h3>
+                <p>
+                  Mesquite Data connects your domain, turns tracking on, and keeps the site maintained so it continues performing.
+                </p>
+                <ul>
+                  <li>Domain, SSL, and analytics configured</li>
+                  <li>Hosting &amp; maintenance plan set up</li>
+                  <li>Simple support channels for edits</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
+
+        <aside class="process-panel" aria-label="Typical launch timeline and results">
+          <div class="process-panel-header">
+            <span><strong>Typical timeline:</strong> 2–3 weeks from kickoff to launch</span>
+            <span>Launch checklist handled for you</span>
+          </div>
+          <div class="pipeline" aria-hidden="true">
+            <span class="active">Plan</span>
+            <span>Design</span>
+            <span>Build</span>
+            <span>Launch</span>
+          </div>
+          <div class="process-kpis">
+            <div>
+              <strong>Sub‑3s load</strong>
+              <span>Target on standard connections for core pages.</span>
+            </div>
+            <div>
+              <strong>Mobile‑first</strong>
+              <span>Layouts built for thumbs, not cursors.</span>
+            </div>
+            <div>
+              <strong>Search‑ready</strong>
+              <span>Clean structure that supports local SEO.</span>
+            </div>
+          </div>
+          <p class="process-note">
+            Every project includes a short handoff walkthrough so you know how your site is structured, what is monitored, and how to request future changes.
+          </p>
+        </aside>
       </div>
     </section>
 
-    <!-- TESTIMONIALS -->
-    <section class="testimonials">
-      <div class="container">
-        <h2>Results our clients see</h2>
-        <div class="testimonial-grid">
-          <blockquote class="testimonial">
-            <p>“Mesquite Data increased our lead flow by 3x in two months.”</p>
-            <footer>— Growth Manager, SaaS Co.</footer>
-          </blockquote>
+    <!-- Why Mesquite Data -->
+    <section id="why" aria-labelledby="why-title">
+      <div class="container why-grid">
+        <div>
+          <div class="section-header">
+            <div class="section-title-group">
+              <h2 id="why-title">Built to earn trust and calls</h2>
+              <p>
+                Mesquite Data focuses on the parts of a website that make phones ring: clarity, speed, and proof that you are the right choice in your market.
+              </p>
+            </div>
+            <div class="section-tag">Why choose Mesquite Data</div>
+          </div>
+          <div class="why-points">
+            <div class="why-card">
+              <h3>Conversion‑first layout</h3>
+              <p>
+                Pages are structured so visitors instantly understand what you do, where you work, and how to reach you.
+              </p>
+              <ul class="why-list">
+                <li>
+                  <span class="why-dot"></span>
+                  <span>Clear “call or request a quote” paths on every page.</span>
+                </li>
+                <li>
+                  <span class="why-dot"></span>
+                  <span>Prominent trust signals: reviews, guarantees, service areas.</span>
+                </li>
+              </ul>
+            </div>
+            <div class="why-card">
+              <h3>Local‑service focus</h3>
+              <p>
+                Everything is tailored for trades, contractors, and local services—practical execution over jargon.
+              </p>
+              <ul class="why-list">
+                <li>
+                  <span class="why-dot"></span>
+                  <span>Copy tuned for people searching “near me” on their phone.</span>
+                </li>
+                <li>
+                  <span class="why-dot"></span>
+                  <span>Content shaped around real jobs and service calls.</span>
+                </li>
+              </ul>
+            </div>
+            <div class="why-card">
+              <h3>Managed, not just deployed</h3>
+              <p>
+                Mesquite Data doesn’t disappear after launch; your site is hosted, monitored, and updated as your business evolves.
+              </p>
+              <ul class="why-list">
+                <li>
+                  <span class="why-dot"></span>
+                  <span>Priority fixes for outages or security issues.</span>
+                </li>
+                <li>
+                  <span class="why-dot"></span>
+                  <span>Simple process to update hours, services, and photos.</span>
+                </li>
+              </ul>
+            </div>
+            <div class="why-card">
+              <h3>Clear, straightforward pricing</h3>
+              <p>
+                One‑time build and ongoing hosting are separated so you always know what you are paying for and why.
+              </p>
+              <ul class="why-list">
+                <li>
+                  <span class="why-dot"></span>
+                  <span>No surprise add‑ons hidden in fine print.</span>
+                </li>
+                <li>
+                  <span class="why-dot"></span>
+                  <span>Packages built around different stages of your business.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-          <blockquote class="testimonial">
-            <p>“Their Discord ads helped deliver a surge in preorders for our latest release.”</p>
-            <footer>— Marketing Lead, Wear & Decor</footer>
-          </blockquote>
+        <aside class="trust-panel" aria-label="Trust and reliability details">
+          <div class="trust-row">
+            <span><strong>Always‑on monitoring</strong></span>
+            <span>Mesquite Data watches uptime and key performance signals so issues are caught early.</span>
+          </div>
+          <div class="trust-row">
+            <span><strong>Secure by default</strong></span>
+            <span>SSL, updates, and threat protection are standard, not “premium extras”.</span>
+          </div>
+          <div>
+            <div class="trust-row">
+              <span><strong>When something breaks, you call one number.</strong></span>
+            </div>
+            <div class="trust-tags">
+              <span class="trust-tag">No ticket maze</span>
+              <span class="trust-tag">Plain‑language updates</span>
+              <span class="trust-tag">Local‑time support</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Use cases -->
+    <section id="use-cases" aria-labelledby="usecase-title">
+      <div class="container usecase-grid">
+        <div>
+          <div class="section-header">
+            <div class="section-title-group">
+              <h2 id="usecase-title">Designed for service‑based work</h2>
+              <p>
+                Whether it’s late‑night emergency calls or scheduled projects, Mesquite Data sites are tuned to turn intent into booked jobs.
+              </p>
+            </div>
+            <div class="section-tag">Example use cases</div>
+          </div>
+          <div class="usecase-tabs" role="tablist" aria-label="Service types">
+            <button class="usecase-tab active" role="tab" aria-selected="true" data-usecase="plumber">
+              Plumbers
+            </button>
+            <button class="usecase-tab" role="tab" aria-selected="false" data-usecase="contractor">
+              Contractors
+            </button>
+            <button class="usecase-tab" role="tab" aria-selected="false" data-usecase="services">
+              Other service businesses
+            </button>
+          </div>
+          <div class="usecase-body" id="usecase-copy">
+            <p>
+              A homeowner with a leak is not browsing for long—they tap the first few results that look credible and call. Your site needs to win that moment.
+            </p>
+            <ul>
+              <li>Emergency service buttons that stay visible on mobile.</li>
+              <li>Service‑area pages that match “plumber near me” searches.</li>
+              <li>Before‑and‑after photos and reviews that build instant trust.</li>
+              <li>Clear, friendly copy that makes it easy to call or request a visit.</li>
+            </ul>
+          </div>
+        </div>
+
+        <aside class="usecase-mock" aria-label="Lead flow example">
+          <div class="usecase-mock-header">
+            <div>
+              <strong>Example: Local plumber</strong>
+              <p>From search to booked job in a few clicks.</p>
+            </div>
+            <span class="btn-pill-soft">Lead flow snapshot</span>
+          </div>
+          <div class="usecase-leads" id="usecase-metrics">
+            <div class="usecase-lead-card">
+              <strong>Visitor</strong>
+              <p>Searches “emergency plumber near me” on their phone and taps your result.</p>
+            </div>
+            <div class="usecase-lead-card">
+              <strong>Website</strong>
+              <p>Loads quickly, shows services, areas, and a big “Call now for urgent repair” button.</p>
+            </div>
+            <div class="usecase-lead-card">
+              <strong>Outcome</strong>
+              <p>Call connects directly to your preferred number, tracked as a lead.</p>
+            </div>
+          </div>
+          <p class="usecase-footnote">
+            The same structure works for contractors, cleaning services, HVAC, and other trades—clear services, mapped areas, and direct ways to reach you.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-title-group">
+            <h2 id="pricing-title">Straightforward products &amp; pricing</h2>
+            <p>
+              Websites are a one‑time investment. Hosting, management, and support are ongoing services that keep that investment working month after month.
+            </p>
+          </div>
+          <div class="section-tag">Products &amp; packages</div>
+        </div>
+        <div class="pricing-grid">
+          <div class="pricing-copy">
+            <p>
+              Mesquite Data separates the initial website build from recurring hosting and management, so you only pay for what you actually need.
+            </p>
+            <p>
+              Instead of complicated feature grids, packages are grouped by how involved you want Mesquite Data to be after launch—from “just keep it online” to “handle updates for us”.
+            </p>
+            <div class="pricing-badges">
+              <span class="pricing-badge">Custom builds, not templates</span>
+              <span class="pricing-badge">Hosting &amp; care plans</span>
+              <span class="pricing-badge">Optional add‑ons</span>
+            </div>
+            <p class="pricing-note">
+              Exact pricing depends on your scope, number of pages, and any special integrations. Most local businesses fall into the ranges shown here.
+            </p>
+          </div>
+
+          <div class="pricing-panels" aria-label="Packages">
+            <article class="pricing-card">
+              <h3 class="pricing-name">One‑time website build</h3>
+              <p class="pricing-price">
+                Typically starting in the low–mid four figures
+              </p>
+              <ul class="pricing-features">
+                <li>
+                  <span class="pricing-dot"></span>
+                  <span>Custom design tailored to your brand and services.</span>
+                </li>
+                <li>
+                  <span class="pricing-dot"></span>
+                  <span>Mobile‑first layouts for phones and tablets.</span>
+                </li>
+                <li>
+                  <span class="pricing-dot"></span>
+                  <span>Core pages: home, services, about, contact, and more as needed.</span>
+                </li>
+                <li>
+                  <span class="pricing-dot"></span>
+                  <span>Technical setup: forms, tracking, speed, and security basics.</span>
+                </li>
+              </ul>
+              <button class="pricing-cta" type="button" data-scroll-target="cta">
+                Discuss your project →
+              </button>
+            </article>
+
+            <article class="pricing-card pricing-card--highlight">
+              <span class="pricing-tag">Most chosen</span>
+              <h3 class="pricing-name">Hosting &amp; management</h3>
+              <p class="pricing-price">
+                Flat monthly fee, scaled to site size
+                <span>• Recurring</span>
+              </p>
+              <ul class="pricing-features">
+                <li>
+                  <span class="pricing-dot"></span>
+                  <span>Fast, managed hosting with SSL and backups.</span>
+                </li>
+                <li>
+                  <span class="pricing-dot"></span>
+                  <span>Monitoring for uptime, security, and performance.</span>
+                </li>
+                <li>
+                  <span class="pricing-dot"></span>
+                  <span>A set number of content edits included each month.</span>
+                </li>
+                <li>
+                  <span class="pricing-dot"></span>
+                  <span>Priority support if anything breaks or needs tuning.</span>
+                </li>
+              </ul>
+              <button class="pricing-cta" type="button" data-scroll-target="cta">
+                View hosting options →
+              </button>
+            </article>
+
+            <article class="pricing-card">
+              <h3 class="pricing-name">Optional add‑ons</h3>
+              <p class="pricing-price">
+                Priced per mailbox or service
+                <span>• As needed</span>
+              </p>
+              <ul class="pricing-features">
+                <li>
+                  <span class="pricing-dot"></span>
+                  <span>Professional email hosting on your domain.</span>
+                </li>
+                <li>
+                  <span class="pricing-dot"></span>
+                  <span>Additional update blocks for seasonal campaigns or new services.</span>
+                </li>
+                <li>
+                  <span class="pricing-dot"></span>
+                  <span>Landing pages for specific promotions or service lines.</span>
+                </li>
+                <li>
+                  <span class="pricing-dot"></span>
+                  <span>Content assistance: copy, photos, and on‑page refinement.</span>
+                </li>
+              </ul>
+              <button class="pricing-cta" type="button" data-scroll-target="cta">
+                Talk through add‑ons →
+              </button>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-band">
+          <div>
+            <h2 id="cta-title">Ready for a website that actually gets customers?</h2>
+            <p>
+              Share a bit about your business, and get a clear plan for your site—no jargon, no pressure, just what it would take to make the website pull its weight.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <button class="btn btn-primary" type="button">
+              Schedule a call
+            </button>
+            <button class="btn btn-outline" type="button">
+              Request a pricing overview
+            </button>
+            <span class="btn-pill-soft">Response within one business day</span>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>© <span id="year"></span> Mesquite Data</div>
-      <nav class="footer-nav" aria-label="Footer">
-        <a href="index.html#about">About</a>
-        <a href="solutions.html">Solutions</a>
-        <a href="mailto:contact@mesquitedata.com">contact@mesquitedata.com</a>
-      </nav>
+  <footer aria-label="Site footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo-mark">
+          <div class="logo-icon"></div>
+          <div class="logo-text">
+            <span>Mesquite Data</span>
+            <span>Websites that convert</span>
+          </div>
+        </div>
+        <p>
+          Mesquite Data builds and manages professional, high‑converting websites for local and service‑based businesses, with clear communication and reliable ongoing support.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="#services">Website design &amp; development</a></li>
+          <li><a href="#services">Hosting &amp; management</a></li>
+          <li><a href="#services">Email hosting</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul class="footer-links">
+          <li><a href="#process">Process</a></li>
+          <li><a href="#why">Why Mesquite Data</a></li>
+          <li><a href="#use-cases">Use cases</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li><a href="mailto:hello@mesquitedata.com">hello@mesquitedata.com</a></li>
+          <li>San Antonio, Texas</li>
+        </ul>
+      </div>
+      <div class="footer-meta">
+        <span>© <span id="year"></span> Mesquite Data. All rights reserved.</span>
+        <span>
+          <a href="#hero-title">Back to top ↑</a>
+        </span>
+      </div>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
